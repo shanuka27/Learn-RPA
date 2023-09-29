@@ -2,7 +2,7 @@
   "name": "Training",
   "projectId": "bf52a403-cc97-49e9-b1a9-ddb8b1e31d71",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "MainFlow.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.1-preview]",
     "UiPath.Mail.Activities": "[1.20.3]",
@@ -52,6 +52,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "dc26ea74-8e77-49bc-bf4c-078d6002eee5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "MainFlow.xaml",
+      "uniqueId": "2bebaab8-82a6-4b70-9855-a39b579bc890",
       "input": [],
       "output": []
     }

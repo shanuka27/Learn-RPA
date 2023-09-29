@@ -1,7 +1,7 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="AssignVariables" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="out_Name" Type="OutArgument(x:String)" />
-    <x:Property Name="io_Address" Type="InOutArgument(x:String)" />
+    <x:Property Name="out_Age" Type="OutArgument(x:Int32)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
@@ -94,7 +94,7 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,210.4" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
         <ui:MultipleAssign.AssignOperations>
-          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
               <ui:AssignOperation.To>
                 <OutArgument x:TypeArguments="x:String">[Name]</OutArgument>
@@ -119,12 +119,12 @@
                 <InArgument x:TypeArguments="x:String">[Name]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
-            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
               <ui:AssignOperation.To>
-                <OutArgument x:TypeArguments="x:String">[io_Address]</OutArgument>
+                <OutArgument x:TypeArguments="x:Int32">[out_Age]</OutArgument>
               </ui:AssignOperation.To>
               <ui:AssignOperation.Value>
-                <InArgument x:TypeArguments="x:String">[io_Address + ", Lewangama"]</InArgument>
+                <InArgument x:TypeArguments="x:Int32">[Age]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
           </scg:List>

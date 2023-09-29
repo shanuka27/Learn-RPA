@@ -11,7 +11,10 @@
     {
       "Path": "Main.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "Address&Sequence_1",
+        "Name&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -31,6 +34,68 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "Age&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AssignVariables.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Age&Sequence_2",
+        "Address&Sequence_2",
+        "Name&Sequence_2",
+        "AccNo&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_Age",
+        "out_Name"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NavigateToCusPortal.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_DataSaved"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MainFlow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DataSaved&Flowchart_1",
+        "Age&Flowchart_1",
+        "Name&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FlowSwitch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Age&Flowchart_1",
+        "Name&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NavigateToRpasamples.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SalesExcelStr&Sequence_1",
+        "SalesExceIDT&Sequence_1",
+        "SalesOpportunitiesStr&Sequence_1",
+        "SalesOpportunitiesDT&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
